@@ -1,10 +1,18 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
+  <h1>Hello User</h1>
+  <P>This application structure is created by using yeoman!</P>
   <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
+    <img src="images/login.png" width="15%" alt="I'm Yeoman"><br>
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">{{"views.main.Splendid!" | translate}}<span class="glyphicon glyphicon-ok"></span></a></p>
+  <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">{{"views.main.Login" | translate}}<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
 
 <div class="row marketing">

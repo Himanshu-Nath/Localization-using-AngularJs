@@ -7,11 +7,11 @@ angular.module('translateApp')
       replace: true,
       template: ''+
         '<div class="language-select" ng-if="visible">'+
-          '<label>'+
+          '<label style="color: floralwhite; margin-top: 10%;">'+
             '{{"directives.language-select.Language" | translate}}:'+
             '<select ng-model="currentLocaleDisplayName"'+
               'ng-options="localesDisplayName for localesDisplayName in localesDisplayNames"'+
-              'ng-change="changeLanguage(currentLocaleDisplayName)">'+
+              'ng-change="changeLanguage(currentLocaleDisplayName)" style="color: black;">'+
             '</select>'+
           '</label>'+
         '</div>'+
