@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome localization web application an AngularJS App with Yeoman
 
-You can use the [editor on GitHub](https://github.com/Himanshu-Nath/Localization-using-AngularJs/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Here we see how localization is possible with angular 1.4 and for creating angular structure we are using Yeoman
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Steps
 
 ```markdown
-Syntax highlighted code block
+#Creating an AngularJS App with Yeoman
+##-Install yo, grunt-cli, bower, generator-angular and generator-karma: (For First Time)
+    ->npm install -g grunt-cli bower yo generator-karma generator-angular
 
-# Header 1
-## Header 2
-### Header 3
+##-Make a new directory, and cd into it:
+    ->mkdir my-new-project
 
-- Bulleted
-- List
+##-Run yo angular, optionally passing an app name:
+    ->yo angular [app-name]
+    ->select "NO" for gutfile insed of grunt
+    ->select "NO" for use Sass (with compass)
+    ->Rest select yes
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+##-To run it in you browser with the live-reload, on any changes, just run:
+    ->grunt serve
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Angular Dependency
 
-### Jekyll Themes
+For angular localization we are going to use i18n
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Himanshu-Nath/Localization-using-AngularJs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```markdown
+-We have to download libraries and include them in the project.
+-Then we'll need to provide translation files and set them working.
+-Next, we will change angular $locale after the language change.
+-Once step 4 is complete, we need to have the drop-down with the list of languages to select from.
+-Lastly, the selected language should be stored and applied after the page reloads.
+```
