@@ -28,9 +28,6 @@ angular.module('translateApp')
       $translate.use(locale);
     };
 
-    /**
-     * Stop application loading animation when translations are loaded
-     */
     var $html = angular.element('html');
     var LOADING_CLASS = 'app-loading';
 
