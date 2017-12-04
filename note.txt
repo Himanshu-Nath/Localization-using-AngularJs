@@ -1,0 +1,15 @@
+Creating an AngularJS App with Yeoman
+-Install yo, grunt-cli, bower, generator-angular and generator-karma: (For First Time)
+    ->npm install -g grunt-cli bower yo generator-karma generator-angular
+
+-Make a new directory, and cd into it:
+    ->mkdir my-new-project
+
+-Run yo angular, optionally passing an app name:
+    ->yo angular [app-name]
+    ->select "NO" for gutfile insed of grunt
+    ->select "NO" for use Sass (with compass)
+    ->Rest select yes
+
+-To run it in you browser with the live-reload, on any changes, just run:
+    ->grunt serve
