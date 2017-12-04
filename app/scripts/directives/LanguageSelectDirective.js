@@ -19,8 +19,7 @@ angular.module('translateApp')
       controller: function ($scope) {
         $scope.currentLocaleDisplayName = LocaleService.getLocaleDisplayName();
         $scope.localesDisplayNames = LocaleService.getLocalesDisplayNames();
-        $scope.visible = $scope.localesDisplayNames &&
-        $scope.localesDisplayNames.length > 1;
+        $scope.visible = $scope.localesDisplayNames && $scope.localesDisplayNames.length > 0;
 
         $scope.changeLanguage = function (locale) {
           LocaleService.setLocaleByDisplayName(locale);
