@@ -31,5 +31,13 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bower": "^1.8.2",
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "postinstall": "bower cache clean && bower install"
   }
 }

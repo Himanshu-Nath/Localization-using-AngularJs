@@ -13,3 +13,7 @@ Creating an AngularJS App with Yeoman
 
 -To run it in you browser with the live-reload, on any changes, just run:
     ->grunt serve
+
+
+
+For simple angular localization view this:- https://jsfiddle.net/dhirajsharma072/8yrez1v5/
