@@ -17,3 +17,23 @@ Creating an AngularJS App with Yeoman
 
 
 For simple angular localization view this:- https://jsfiddle.net/dhirajsharma072/8yrez1v5/
+
+
+
+
+
+If you've heroku toolbelt:
+
+If you're using the Heroku Toolbelt, the newer syntax is
+
+heroku git:remote -a project
+
+Else if you don't have heroku toolbelt:
+
+First do this:
+
+git remote add heroku git@heroku.com:{heroku-app-name}.git
+Then do this:
+
+git push heroku master
+heroku open
