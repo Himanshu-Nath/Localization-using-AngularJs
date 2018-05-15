@@ -1,26 +1,21 @@
 {
-  "PAGE_TITLE": "i18n для ваших AngularJS приложений",
-  "PAGE_CONTENT": "Как переводить ваши AngularJS приложения без перезагрузки страницы с angular-translate",
+  "view.appname": "Угловая 1.6 Локализация",
 
+  "views.main.form.title": "Привет, пользователь",
+  "views.main.form.message": "Это приложение предназначено для хранения любых данных в облаке бесплатно!",
+  "views.main.form.username": "имя пользователя",
+  "views.main.form.password": "пароль",
+  "views.main.form.button": "Авторизоваться",
 
-  "views.Fork me on": "Создай Fork на",
+  "views.main.body.title": "Особенности",
+  "views.main.body.message_1": "Безопасное хранение данных в облаке бесплатно. Все данные хранятся в облаке в формате encypted",
+  "views.main.body.message_2": "Получить контент из изображений",
+  "views.main.body.message_3": "Создайте свои задачи",
 
   "views.index.Home": "Главная",
   "views.index.About": "Обо мне",
   "views.index.Contact": "Контакты",
-  "views.index.from the Yeoman team": "от команды Yeoman",
-
-  "views.main.i18n for your AngularJS applications": "i18n для ваших AngularJS приложений",
-  "views.main.I'm Yeoman": "Я- Yeoman",
-  "views.main.Always a pleasure scaffolding your apps.": "Всегда приятно быть основой для ваших приложений.",
-  "views.main.Login": "Отлично!",
-  "views.main.HTML5 Boilerplate": "HTML5 Boilerplate",
-  "views.main.HTML5 Boilerplate description": "HTML5 Boilerplate- это профессиональный front-end для создания быстрых, надежных и адаптивных веб-приложений или сайтов.",
-  "views.main.Angular": "Angular",
-  "views.main.Angular description": "AngularJS- это набор инструментов для создания фреймворка, который наиболее подходит вам для разработки приложений.",
-  "views.main.Karma": "Karma",
-  "views.main.Karma description": "Великолепный инструмент для запуска JavaScript тестов.",
-
+  
   "views.about.My name is...": "Меня зовут Сергей Господарец.",
   "views.about.I'm Web Developer and...": "Я- веб-разработчик и software инженер с большим опытом в области Front-End.",
   "views.about.Author of": "Author of",

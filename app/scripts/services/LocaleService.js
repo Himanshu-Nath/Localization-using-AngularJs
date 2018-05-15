@@ -2,6 +2,7 @@ angular.module('translateApp')
   .service('LocaleService', function ($translate, LOCALES, $rootScope, tmhDynamicLocale) {
     'use strict';
     var localesObj = LOCALES.locales;
+    console.log(localesObj);
 
     var _LOCALES = Object.keys(localesObj);
     if (!_LOCALES || _LOCALES.length === 0) {
